@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 
-apt-get install -y git libpq-dev
-
-
-# git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+apt-get update
+apt-get install -y git libpq-dev libsqlite3-dev nodejs openjdk-6-jre-headless
